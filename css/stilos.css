@@ -1,0 +1,190 @@
+/* styles.css
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.resultado {
+    margin-top: 20px;
+}
+
+.dni, .nombre, .apellido {
+    margin-bottom: 20px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+
+
+
+.resultado {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding-top: 10px;
+    
+} */
+
+
+
+
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px; /* Agregando margen inferior para separar de .resultado */
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #60e323ac;
+}
+
+.resultado {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px; /* Ajusta el padding-top y elimina el padding-bottom para controlar el espacio superior de .resultado */
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+
+.dni, .nombre, .apellido {
+    margin-bottom: 20px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.img-1 {
+    width: 10%;
+    height: 25%;
+    
+}
+.img-2 {
+    width: 20%;
+    height: 25%;
+    
+}
+.centrar_img{
+    text-align: center;
+}
+
+.centrar_img2{
+    text-align: center;
+}
